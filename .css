@@ -1,0 +1,18 @@
+.horizontal {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.my-class {
+  margin: 6px;
+  boder: 8px solid grey;
+  padding: 4px;
+  background-color: green;
+}
