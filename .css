@@ -1,5 +1,20 @@
-.horizontal {
-  float: right;
+
+body {
+  font-family: Verdana, Geneva, sans-serif
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+
+/*=======================================
+Classes
+=========================================*/
+
+.horizontal img{
+  float: left;
+  max-height: 200px
 }
 
 .alignleft {
@@ -15,4 +30,21 @@
   boder: 8px solid grey;
   padding: 4px;
   background-color: green;
+}
+
+.stubby {
+  max-height: 12px;
+  max-width: auto;
+}
+
+
+/*==========================================
+Media Queries
+============================================*/
+
+@media screen and (max-width: 600px) {
+  body {
+    background: #FF6347;
+    color: #FFF;
+  }
 }
